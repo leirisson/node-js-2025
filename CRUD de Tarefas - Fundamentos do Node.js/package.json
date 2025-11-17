@@ -1,0 +1,13 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "API de tarefas com importação CSV",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "import:csv": "node import-csv.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6"
+  }
+}
